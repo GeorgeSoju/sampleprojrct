@@ -18,15 +18,15 @@ class stack extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.pinkAccent[200],
-        title: Text('Stack'),
+        title: const Text('Stack'),
       ),
       body: Center(
         child: Stack(
           children: [
             Container(color: Colors.deepOrange,),
-            Positioned(child: Container(color: Colors.cyan,height: 400,width: 400,),left: 20,top: 50,),
-            Positioned(child: Container(color: Colors.green,height: 300,width: 300,),left: 50,bottom: 20,),
-            Positioned(child: Container(color: Colors.yellow,height: 200,width: 200,),right: 20,top:40),
+            Positioned(left: 20,top: 50,child: Container(color: Colors.cyan,height: 400,width: 400,),),
+            Positioned(left: 50,bottom: 20,child: Container(color: Colors.green,height: 300,width: 300,),),
+            Positioned(right: 20,top:40, child: Container(color: Colors.yellow,height: 200,width: 200,)),
 
           ],
         ),

@@ -20,7 +20,7 @@ class _loginvalidationState extends State<loginvalidation> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Login Page'),
+          title: const Text('Login Page'),
         ),
         body: SingleChildScrollView(
             child: Form(

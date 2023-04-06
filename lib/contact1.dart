@@ -30,7 +30,7 @@ class _ContactScreenState extends State<ContactScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Contact Screen'),
+        title: const Text('Contact Screen'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -41,7 +41,7 @@ class _ContactScreenState extends State<ContactScreen> {
               radius: 80,
               backgroundImage: AssetImage('assets/images/Apple.png'),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             const Text(
               'John Doe',
               style: TextStyle(
@@ -49,7 +49,7 @@ class _ContactScreenState extends State<ContactScreen> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             Text(
               'johndoe@email.com',
               style: TextStyle(
@@ -57,9 +57,9 @@ class _ContactScreenState extends State<ContactScreen> {
                 color: Colors.grey[600],
               ),
             ),
-            SizedBox(height: 16),
-            Divider(),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
+            const Divider(),
+            const SizedBox(height: 16),
             const Text(
               'Contact Info',
               style: TextStyle(
@@ -67,7 +67,7 @@ class _ContactScreenState extends State<ContactScreen> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             const ListTile(
               leading: Icon(Icons.phone),
               title: Text('123-456-7890'),

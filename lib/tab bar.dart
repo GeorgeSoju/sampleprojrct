@@ -77,13 +77,13 @@ class Mytab extends StatelessWidget {
         ));
   }
 }
-
 void main() {
   runApp(DevicePreview(
       builder: (BuildContext context) => MaterialApp(
             theme: ThemeData(primarySwatch: Colors.teal),
             useInheritedMediaQuery: true,
             home: Mytab(),
+
             debugShowCheckedModeBanner: false,
           )));
 }

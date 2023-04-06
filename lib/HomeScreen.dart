@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Card(
         child: ListView(
-          children: [
+          children: const [
             ListTile(
               title: Text('Apple'),
               subtitle: Text('\$12'),
